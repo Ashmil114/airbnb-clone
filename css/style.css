@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --primary:rgb(255, 56, 92);
+
+:root {
+    --primary: rgb(255, 56, 92);
     --font-bold: 'air-bold';
     --font-medium: 'air-medium';
     --font-book: 'air-book';
@@ -25,41 +26,45 @@
     src: url(/assets/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
 }
 
-.logo{  
-    height: 100%; 
-    display: flex; 
-    align-items: center; 
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-grow: 1;
 }
-.nav-center-btn-stays{
+
+.nav-center-btn-stays {
     color: rgb(34, 34, 34);
     font-family: var(--font-medium);
     font-size: 16px;
     /* font-weight: 500; */
 }
-.nav-center-btn-experiences{
+
+.nav-center-btn-experiences {
     color: rgb(106, 106, 106);
     font-family: var(--font-book);
     font-size: 16px;
     /* font-weight: 500; */
 }
-.nav-search-container{
-    background-color :rgb(255, 255, 255);
-    border-color :rgb(221, 221, 221);
-    border-radius :32px;
-    border-style :solid;
-    border-width :1px;
+
+.nav-search-container {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(221, 221, 221);
+    border-radius: 32px;
+    border-style: solid;
+    border-width: 1px;
     height: 66px;
     display: flex;
-    position: absolute;
-    top: 66px;
-    display: none;
-    
+    width: auto;
+    outline-color: rgb(34, 34, 34);
+    flex-grow: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px, rgba(0, 0, 0, 0.08) 0px 1px 2px 0px;
 
 }
-.nav-search-input{
-    
+
+.nav-search-input {
+
     border-bottom-color: rgb(34, 34, 34);
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -92,9 +97,18 @@
     font-weight: 500;
     height: 18px;
     letter-spacing: normal;
-    line-break: strict
+    line-break: strict;
+    width: 100%;
+    outline: none;
+
 }
-.divider{
+
+.nav-search-input::placeholder {
+    /* font-family: var(--font-book); */
+    color: rgb(106, 106, 106);
+}
+
+.divider {
     align-self: center;
     border-right-color: rgb(221, 221, 221);
     border-right-style: solid;
@@ -115,7 +129,7 @@
 
 }
 
-.user-btn{
+.user-btn {
     align-items: center;
     background-color: rgb(255, 255, 255);
     border-color: rgb(221, 221, 221);
@@ -134,9 +148,49 @@
     outline-color: rgb(34, 34, 34);
     padding-left: 14px;
     padding-right: 8px;
-   
     position: relative;
     text-align: start;
     text-decoration-color: rgb(34, 34, 34);
     width: 86px;
+}
+
+
+
+@media (min-width:1128px) {
+    header {
+        padding: 0px 40px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    header {
+        padding: 0px 80px;
+    }
+
+
+}
+
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 56px;
+    gap: 6px;
+    padding: 4px 0px;
+    margin: 12px 0 8px 0px;
+    text-align: center;
+}
+.icon-text-p{
+    font-size: 12px; font-family: air-medium; color: rgb(106, 106, 106);  
+    padding-left: 2px;
+}
+.icon-text{
+    font-size: 12px; font-family: air-medium; color: rgb(106, 106, 106);  
+    
+}
+
+.icon-image{
+    opacity: .67;
 }
