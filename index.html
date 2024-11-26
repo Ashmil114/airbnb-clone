@@ -12,7 +12,7 @@
 <body>
   <main>
     <!-- Navbar -->
-    <div style="height:168px">
+    <div class="main-nav">
       <div style="height: 80px; width: 100%">
         <header style="
               height: 100%;
@@ -25,7 +25,7 @@
           <div style="width: 100%">
             <div class="logo">
               <div>
-                <a href="">
+                <a href="" class="logo-lg">
                   <svg width="102" height="32" style="display: block">
                     <path
                       d="M29.3864 22.7101C29.2429 22.3073 29.0752 21.9176 28.9157 21.5565C28.6701 21.0011 28.4129 20.4446 28.1641 19.9067L28.1444 19.864C25.9255 15.0589 23.5439 10.1881 21.0659 5.38701L20.9607 5.18316C20.7079 4.69289 20.4466 4.18596 20.1784 3.68786C19.8604 3.0575 19.4745 2.4636 19.0276 1.91668C18.5245 1.31651 17.8956 0.833822 17.1853 0.502654C16.475 0.171486 15.7005 -9.83959e-05 14.9165 4.23317e-08C14.1325 9.84805e-05 13.3581 0.171877 12.6478 0.503224C11.9376 0.834571 11.3088 1.31742 10.8059 1.91771C10.3595 2.46476 9.97383 3.05853 9.65572 3.68858C9.38521 4.19115 9.12145 4.70278 8.8664 5.19757L8.76872 5.38696C6.29061 10.1884 3.90903 15.0592 1.69015 19.8639L1.65782 19.9338C1.41334 20.463 1.16057 21.0102 0.919073 21.5563C0.75949 21.9171 0.592009 22.3065 0.448355 22.7103C0.0369063 23.8104 -0.094204 24.9953 0.0668098 26.1585C0.237562 27.334 0.713008 28.4447 1.44606 29.3804C2.17911 30.3161 3.14434 31.0444 4.24614 31.4932C5.07835 31.8299 5.96818 32.002 6.86616 32C7.14824 31.9999 7.43008 31.9835 7.71027 31.9509C8.846 31.8062 9.94136 31.4366 10.9321 30.8639C12.2317 30.1338 13.5152 29.0638 14.9173 27.5348C16.3194 29.0638 17.6029 30.1338 18.9025 30.8639C19.8932 31.4367 20.9886 31.8062 22.1243 31.9509C22.4045 31.9835 22.6864 31.9999 22.9685 32C23.8664 32.002 24.7561 31.8299 25.5883 31.4932C26.6901 31.0444 27.6554 30.3161 28.3885 29.3804C29.1216 28.4447 29.5971 27.3341 29.7679 26.1585C29.9287 24.9952 29.7976 23.8103 29.3864 22.7101ZM14.9173 24.377C13.1816 22.1769 12.0678 20.1338 11.677 18.421C11.5169 17.7792 11.4791 17.1131 11.5656 16.4573C11.6339 15.9766 11.8105 15.5176 12.0821 15.1148C12.4163 14.6814 12.8458 14.3304 13.3374 14.0889C13.829 13.8475 14.3696 13.7219 14.9175 13.7219C15.4655 13.722 16.006 13.8476 16.4976 14.0892C16.9892 14.3307 17.4186 14.6817 17.7528 15.1151C18.0244 15.5181 18.201 15.9771 18.2693 16.4579C18.3556 17.114 18.3177 17.7803 18.1573 18.4223C17.7661 20.1349 16.6526 22.1774 14.9173 24.377ZM27.7406 25.8689C27.6212 26.6908 27.2887 27.4674 26.7762 28.1216C26.2636 28.7759 25.5887 29.2852 24.8183 29.599C24.0393 29.9111 23.1939 30.0217 22.3607 29.9205C21.4946 29.8089 20.6599 29.5239 19.9069 29.0824C18.7501 28.4325 17.5791 27.4348 16.2614 25.9712C18.3591 23.3846 19.669 21.0005 20.154 18.877C20.3723 17.984 20.4196 17.0579 20.2935 16.1475C20.1791 15.3632 19.8879 14.615 19.4419 13.9593C18.9194 13.2519 18.2378 12.6768 17.452 12.2805C16.6661 11.8842 15.798 11.6777 14.9175 11.6777C14.0371 11.6777 13.1689 11.8841 12.383 12.2803C11.5971 12.6765 10.9155 13.2515 10.393 13.9589C9.94707 14.6144 9.65591 15.3624 9.5414 16.1465C9.41524 17.0566 9.4623 17.9822 9.68011 18.8749C10.1648 20.9993 11.4748 23.384 13.5732 25.9714C12.2555 27.4348 11.0845 28.4325 9.92769 29.0825C9.17468 29.5239 8.34007 29.809 7.47395 29.9205C6.64065 30.0217 5.79525 29.9111 5.0162 29.599C4.24581 29.2852 3.57092 28.7759 3.05838 28.1217C2.54585 27.4674 2.21345 26.6908 2.09411 25.8689C1.97932 25.0334 2.07701 24.1825 2.37818 23.3946C2.49266 23.0728 2.62663 22.757 2.7926 22.3818C3.0274 21.851 3.27657 21.3115 3.51759 20.7898L3.54996 20.7197C5.75643 15.9419 8.12481 11.0982 10.5894 6.32294L10.6875 6.13283C10.9384 5.64601 11.1979 5.14267 11.4597 4.6563C11.7101 4.15501 12.0132 3.68171 12.3639 3.2444C12.6746 2.86903 13.0646 2.56681 13.5059 2.35934C13.9473 2.15186 14.4291 2.04426 14.9169 2.04422C15.4047 2.04418 15.8866 2.15171 16.3279 2.35911C16.7693 2.56651 17.1593 2.86867 17.4701 3.24399C17.821 3.68097 18.1242 4.15411 18.3744 4.65538C18.6338 5.13742 18.891 5.63623 19.1398 6.11858L19.2452 6.32315C21.7097 11.0979 24.078 15.9415 26.2847 20.7201L26.3046 20.7631C26.5498 21.2936 26.8033 21.8419 27.042 22.382C27.2082 22.7577 27.3424 23.0738 27.4566 23.3944C27.7576 24.1824 27.8553 25.0333 27.7406 25.8689Z"
@@ -35,11 +35,19 @@
                       fill="rgb(255, 56, 92)"></path>
                   </svg>
                 </a>
+                <a href="" class="logo-sm">
+                  <svg width="102" height="32" style="display: block">
+                    <path
+                      d="M29.3864 22.7101C29.2429 22.3073 29.0752 21.9176 28.9157 21.5565C28.6701 21.0011 28.4129 20.4446 28.1641 19.9067L28.1444 19.864C25.9255 15.0589 23.5439 10.1881 21.0659 5.38701L20.9607 5.18316C20.7079 4.69289 20.4466 4.18596 20.1784 3.68786C19.8604 3.0575 19.4745 2.4636 19.0276 1.91668C18.5245 1.31651 17.8956 0.833822 17.1853 0.502654C16.475 0.171486 15.7005 -9.83959e-05 14.9165 4.23317e-08C14.1325 9.84805e-05 13.3581 0.171877 12.6478 0.503224C11.9376 0.834571 11.3088 1.31742 10.8059 1.91771C10.3595 2.46476 9.97383 3.05853 9.65572 3.68858C9.38521 4.19115 9.12145 4.70278 8.8664 5.19757L8.76872 5.38696C6.29061 10.1884 3.90903 15.0592 1.69015 19.8639L1.65782 19.9338C1.41334 20.463 1.16057 21.0102 0.919073 21.5563C0.75949 21.9171 0.592009 22.3065 0.448355 22.7103C0.0369063 23.8104 -0.094204 24.9953 0.0668098 26.1585C0.237562 27.334 0.713008 28.4447 1.44606 29.3804C2.17911 30.3161 3.14434 31.0444 4.24614 31.4932C5.07835 31.8299 5.96818 32.002 6.86616 32C7.14824 31.9999 7.43008 31.9835 7.71027 31.9509C8.846 31.8062 9.94136 31.4366 10.9321 30.8639C12.2317 30.1338 13.5152 29.0638 14.9173 27.5348C16.3194 29.0638 17.6029 30.1338 18.9025 30.8639C19.8932 31.4367 20.9886 31.8062 22.1243 31.9509C22.4045 31.9835 22.6864 31.9999 22.9685 32C23.8664 32.002 24.7561 31.8299 25.5883 31.4932C26.6901 31.0444 27.6554 30.3161 28.3885 29.3804C29.1216 28.4447 29.5971 27.3341 29.7679 26.1585C29.9287 24.9952 29.7976 23.8103 29.3864 22.7101ZM14.9173 24.377C13.1816 22.1769 12.0678 20.1338 11.677 18.421C11.5169 17.7792 11.4791 17.1131 11.5656 16.4573C11.6339 15.9766 11.8105 15.5176 12.0821 15.1148C12.4163 14.6814 12.8458 14.3304 13.3374 14.0889C13.829 13.8475 14.3696 13.7219 14.9175 13.7219C15.4655 13.722 16.006 13.8476 16.4976 14.0892C16.9892 14.3307 17.4186 14.6817 17.7528 15.1151C18.0244 15.5181 18.201 15.9771 18.2693 16.4579C18.3556 17.114 18.3177 17.7803 18.1573 18.4223C17.7661 20.1349 16.6526 22.1774 14.9173 24.377ZM27.7406 25.8689C27.6212 26.6908 27.2887 27.4674 26.7762 28.1216C26.2636 28.7759 25.5887 29.2852 24.8183 29.599C24.0393 29.9111 23.1939 30.0217 22.3607 29.9205C21.4946 29.8089 20.6599 29.5239 19.9069 29.0824C18.7501 28.4325 17.5791 27.4348 16.2614 25.9712C18.3591 23.3846 19.669 21.0005 20.154 18.877C20.3723 17.984 20.4196 17.0579 20.2935 16.1475C20.1791 15.3632 19.8879 14.615 19.4419 13.9593C18.9194 13.2519 18.2378 12.6768 17.452 12.2805C16.6661 11.8842 15.798 11.6777 14.9175 11.6777C14.0371 11.6777 13.1689 11.8841 12.383 12.2803C11.5971 12.6765 10.9155 13.2515 10.393 13.9589C9.94707 14.6144 9.65591 15.3624 9.5414 16.1465C9.41524 17.0566 9.4623 17.9822 9.68011 18.8749C10.1648 20.9993 11.4748 23.384 13.5732 25.9714C12.2555 27.4348 11.0845 28.4325 9.92769 29.0825C9.17468 29.5239 8.34007 29.809 7.47395 29.9205C6.64065 30.0217 5.79525 29.9111 5.0162 29.599C4.24581 29.2852 3.57092 28.7759 3.05838 28.1217C2.54585 27.4674 2.21345 26.6908 2.09411 25.8689C1.97932 25.0334 2.07701 24.1825 2.37818 23.3946C2.49266 23.0728 2.62663 22.757 2.7926 22.3818C3.0274 21.851 3.27657 21.3115 3.51759 20.7898L3.54996 20.7197C5.75643 15.9419 8.12481 11.0982 10.5894 6.32294L10.6875 6.13283C10.9384 5.64601 11.1979 5.14267 11.4597 4.6563C11.7101 4.15501 12.0132 3.68171 12.3639 3.2444C12.6746 2.86903 13.0646 2.56681 13.5059 2.35934C13.9473 2.15186 14.4291 2.04426 14.9169 2.04422C15.4047 2.04418 15.8866 2.15171 16.3279 2.35911C16.7693 2.56651 17.1593 2.86867 17.4701 3.24399C17.821 3.68097 18.1242 4.15411 18.3744 4.65538C18.6338 5.13742 18.891 5.63623 19.1398 6.11858L19.2452 6.32315C21.7097 11.0979 24.078 15.9415 26.2847 20.7201L26.3046 20.7631C26.5498 21.2936 26.8033 21.8419 27.042 22.382C27.2082 22.7577 27.3424 23.0738 27.4566 23.3944C27.7576 24.1824 27.8553 25.0333 27.7406 25.8689Z"
+                      fill="rgb(255, 56, 92)"></path>
+
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
           <!-- 2/3 -->
-          <div style="width: 100%">
+          <div style="width: 100% ">
             <div style="
                   padding: 0px 24px;
                   display: flex;
@@ -48,7 +56,7 @@
                   justify-content: center;
                   margin-bottom: 2px;
                 ">
-              <div style="padding: 0px 80px; height: 66px ; margin-right: 2px;">
+              <div class="stay-experience-wrapper">
                 <div style="padding-bottom: 16px">
                   <div>
                     <form action="">
@@ -67,7 +75,7 @@
                                 justify-content: center;
                               ">
                             <div>
-                              <div style="margin: 10px 17px">
+                              <div class="nav-center-btn-stays-container">
                                 <span class="nav-center-btn-stays">Stays</span>
                               </div>
                             </div>
@@ -79,7 +87,7 @@
                                 justify-content: center;
                               ">
                             <div>
-                              <div style="margin: 10px 16px">
+                              <div class="nav-center-btn-experiences-container">
                                 <span class="nav-center-btn-experiences">Experiences</span>
                               </div>
                             </div>
@@ -113,6 +121,7 @@
                         font-size: 14px;
                         font-family: air-medium;
                         color: rgb(34, 34, 34);
+                        white-space: nowrap;
                       ">
                     Airbnb your home
                   </a>
@@ -170,14 +179,8 @@
           </div>
         </header>
         <!-- 2nd Nav -->
-        <div style="
-              padding-bottom: 22px;
-              border-bottom-color: rgb(235, 235, 235);
-              border-bottom-style: solid;
-              border-bottom-width: 1px;
-              box-sizing: border-box;
-            ">
-          <div style="padding: 0px 80px">
+        <div class="second-nav-wrapper">
+          <div class="second-nav-container">
             <div style="
                   display: flex;
                   align-items: center;
@@ -293,135 +296,466 @@
         <!-- End of 2nd Nav -->
       </div>
     </div>
+    <!-- Sm - Nav  -->
+    <div style="height: 48px;" class="sm-nav">
+      <div style="margin: 14px 24px 0px 24px;">
+        <div class="sm-nav-container">
+          <div class="sm-nav-body-area">
+            <span style="display: flex; align-items: center; justify-content: center;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;">
+                <path
+                  d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
+                </path>
+              </svg>
+            </span>
+            <span style="line-height :18.02px; margin-top: 2px; margin-left: 3px;">
+              <div style="font-size: 14px;">Where to?</div>
+              <div style="padding-right: 24px; font-family: air-book; display: flex; gap: 5px;  ">
+                <span style="color: rgb(106, 106, 106); font-size: 12px;">Anywhere</span>
+                <span>•</span>
+                <span style="color: rgb(106, 106, 106); font-size: 12px;">Any week</span>
+                <span>•</span>
+                <span style="color: rgb(106, 106, 106); font-size: 12px;">Add guests</span>
+
+              </div>
+            </span>
+          </div>
+          <div style=" height: 56px; position: absolute; right: -52px; top: 7px;">
+            <div class="sm-filter-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false"
+                style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                <path fill="none"
+                  d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- Sm Nav End -->
+
+    <div style="position: fixed; width: 100%; bottom: 40px; z-index: 70;">
+     <div style="display: flex; justify-content: center;">
+      <button class="show-map">
+        <span style="font-size: 14px; color: #fff; font-family: air-bold;"><span class="map-show-lg">Show map</span> <span class="map-show-sm">Map</span></span>
+        <div style="margin-left: 8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; fill: #fff;"><path d="M31.25 3.75a2.29 2.29 0 0 0-1.01-1.44A2.29 2.29 0 0 0 28.5 2L21 3.67l-10-2L2.5 3.56A2.29 2.29 0 0 0 .7 5.8v21.95a2.28 2.28 0 0 0 1.06 1.94A2.29 2.29 0 0 0 3.5 30L11 28.33l10 2 8.49-1.89a2.29 2.29 0 0 0 1.8-2.24V4.25a2.3 2.3 0 0 0-.06-.5zM12.5 25.98l-1.51-.3L9.5 26H9.5V4.66l1.51-.33 1.49.3v21.34zm10 1.36-1.51.33-1.49-.3V6.02l1.51.3L22.5 6h.01v21.34z"></path></svg>
+        </div>
+      </button>
+     </div>
+    </div>
 
     <!-- Categories -->
-    <div style="   padding-top: 12px;">
-        <div style="padding: 0px 40px; display: flex; align-items: center;">
-          <div style="display: flex; align-items: center; ">
-            <div>
-              <div style="display: grid; column-gap :32px; justify-content: flex-start; grid-auto-flow :column;">
-                <!-- Active Category item -->
-                <div style="border-bottom: black 2px solid; min-width: 56px;">
-                  <div style="display: flex;  flex-direction: column; align-items: center;   gap: 6px;  padding: 4px 0px; margin: 12px 0 8px 0;">
-                    <img  src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="" width="24" height="24">
+    <div style="   padding-top: 12px; " class="category-nav">
+      <div style=" display: flex; align-items: center; " class="category-container">
+
+        <div style="display: flex; align-items: center; overflow: hidden; flex: 1; ">
+          <div>
+            <div style="display: grid; column-gap: 32px; justify-content: flex-start; grid-auto-flow :column;">
+              <!-- Active Category item -->
+              <!-- <div style="border-bottom: black 2px solid; min-width: 56px; width: fit-content;">
+                <div
+                  style="display: flex;  width: fit-content; flex-direction: column; align-items: center;   gap: 6px;  padding: 4px 0px; margin: 12px 0 8px 0;">
+                  <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="" width="24"
+                    height="24">
+                  <div>
+                    <span style="font-size: 12px; font-family: air-medium; white-space: nowrap; ">Amazing views</span>
+                  </div>
+                </div>
+              </div> -->
+              <div style="border-bottom: black 2px solid;  width: fit-content;">
+                <div
+                  style="display: flex;  width: fit-content; flex-direction: column; align-items: center;   gap: 6px;  padding: 4px 0px; margin: 12px 0 8px 0;">
+                  <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="" width="24"
+                    height="24">
+                  <div>
+                    <span style="font-size: 12px; font-family: air-medium; white-space: nowrap; ">Farms</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Inactive Category items -->
+              <div style="display: flex; gap: 32px; margin-left: 7px;">
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+                      alt="" width="24" height="24">
                     <div>
-                      <span style="font-size: 12px; font-family: air-medium; ">Amazing views</span>
+                      <span class="icon-text-p">Icons</span>
                     </div>
                   </div>
                 </div>
-                <!-- Inactive Category items -->
-                <div style="display: flex; gap: 32px; margin-left: 7px;">
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text-p">Icons</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text-p">Farms</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text-p">OMG!</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text-p">A-frames</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="	https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text" style="padding-left: 1px;">Beachfront</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text">Amazing pools</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="	https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text">Lakefront</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text">Castles</span>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div >
-                    <div class="icon-container">
-                      <img class="icon-image"  src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="" width="24" height="24" >
-                      <div>
-                        <span class="icon-text">Rooms</span>
-                      </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text-p">Farms</span>
                     </div>
                   </div>
                 </div>
-  
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text-p">OMG!</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text-p">A-frames</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="	https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text" style="padding-left: 1px;">Beachfront</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text">Amazing pools</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="	https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text">Lakefront</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text">Castles</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text">Rooms</span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="	https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text" style="padding-left: 1px;">Beachfront</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text">Amazing pools</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="icon-container">
+                    <img class="icon-image"
+                      src="	https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="" width="24"
+                      height="24">
+                    <div>
+                      <span class="icon-text">Lakefront</span>
+                    </div>
+                  </div>
+                </div>
               </div>
+
             </div>
-            <!-- Scroll Btn -->
-            <div style="margin-left: -28px;  z-index: 2;">
-              <div style="width: 32px; height: 32px; border: rgba(0, 0, 0, 0.3) 1px solid; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: rgb(255, 255, 255) -1px 1px 18px 19px, rgb(255, 255, 255) 1px 1px 1px 1px; background-color: #fff;">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path d="M5.41.3 4 1.7 10.3 8 4 14.3l1.41 1.4 6.6-6.58c.57-.58.6-1.5.1-2.13l-.1-.11z"></path></svg>
-              </div>
+          </div>
+
+        </div>
+        <div style="display: flex; align-items: center;">
+
+          <!-- Scroll Btn -->
+          <div style="margin-left: -7px;  z-index: 2;" class="sm-hidden-btn">
+            <div
+              style="width: 32px; height: 32px; border: rgba(0, 0, 0, 0.3) 1px solid; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: rgb(255, 255, 255) -1px 1px 18px 19px, rgb(255, 255, 255) 1px 1px 1px 1px; background-color: #fff;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                <path d="M5.41.3 4 1.7 10.3 8 4 14.3l1.41 1.4 6.6-6.58c.57-.58.6-1.5.1-2.13l-.1-.11z"></path>
+              </svg>
             </div>
           </div>
 
           <!-- Filter Btn -->
 
 
-          <div style="min-width: 93.5px; margin-left: 16px; z-index: 3;">
+          <div style="min-width: 93.5px; margin-left: 16px; z-index: 3;" class="sm-hidden-btn">
             <div style="border: rgb(221, 221, 221) 1px solid; border-radius: 12px; ">
-              
-                <div style="  padding: 7px 0px; margin-right: 2px; display: flex; height: 46px; gap: 8px; align-items: center; justify-content: center;">
-                  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" style="display:block;fill:none;height:16px;width:16px;stroke:rgb(34, 34, 34);stroke-width:3;overflow:visible ; margin-top: 2px;" aria-hidden="true" role="presentation" focusable="false"><path fill="none" d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path></svg>
+
+              <div
+                style="  padding: 7px 0px; margin-right: 2px; display: flex; height: 46px; gap: 8px; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                  style="display:block;fill:none;height:16px;width:16px;stroke:rgb(34, 34, 34);stroke-width:3;overflow:visible ; margin-top: 2px;"
+                  aria-hidden="true" role="presentation" focusable="false">
+                  <path fill="none"
+                    d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3">
+                  </path>
+                </svg>
                 <div style="font-size: 12px; font-family: air-medium;">Filters</div>
-                </div>
-              
+              </div>
+
             </div>
           </div>
-          
-          
+
+          <!-- Display total before taxes -->
+          <div style="padding-left: 14px;  " class="sm-hidden-btn">
+            <div class="display-taxes-btn">
+              <div style="font-size:12px ;">Display total before taxes</div>
+              <button class="display-swipe-btn">
+                <div class="swipe-btn"></div>
+              </button>
+            </div>
+          </div>
         </div>
 
+
       </div>
-    
+
+    </div>
+    <!-- End of Categories -->
+    <!-- Cards Section -->
+    <div class="main-content-section">
+      <div class="main-content-body">
+        <div class="main-content-container">
+          <div class="container-grid">
+            <!-- Single Card -->
+            <div class="grid-element">
+              <div class="grid-element-container">
+                <div class="image-card">
+                  <div class="image-container">
+                    <img
+                      src="https://a0.muscache.com/im/pictures/miso/Hosting-731672872585103658/original/e28db6a3-6932-4c82-809e-546ef1d9f5a9.jpeg?im_w=720"
+                      alt="">
+                  </div>
+                  <div class="like">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke:#fff; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </div>
+                  </div>
+                  
+                  <div class="image-nav">
+                    <button class="img-nav-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                        focusable="false"
+                        style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                        <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28" />
+                      </svg> </button>
+                  </div>
+                </div>
+                <div class="element-content" style="position: relative;">
+                  <div class="element-content-title">
+                    Manali, India
+                  </div>
+                  <div class="element-content-host">
+                    396 kilometres away
+                  </div>
+                  <div class="element-content-host">
+                    8–13 Dec
+                  </div>
+                  <div class="element-content-price">
+                    <span>
+                      ₹4,396 
+                      </span>night 
+                  </div>
+                  <!-- Rating -->
+                  <div style="display: flex; align-items: center; gap: 5px; position: absolute; right: 0;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                    <span style="font-family: air-book; font-size: 15px;">4.85</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Single Card End -->
+
+
+            <div class="grid-element">
+              <div class="grid-element-container">
+                <div class="image-card">
+                  <div class="image-container">
+                    <img
+                      src="https://a0.muscache.com/im/pictures/miso/Hosting-48554731/original/a79e82dc-85a0-463a-b769-ff90eb2b9d17.jpeg?im_w=720"
+                      alt="">
+                  </div>
+                  <div class="like">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke:#fff; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </div>
+                  </div>
+                  
+                  <div class="image-nav">
+                    <button class="img-nav-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                        focusable="false"
+                        style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                        <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28" />
+                      </svg> </button>
+                  </div>
+                </div>
+                <div class="element-content" style="position: relative;">
+                  <div class="element-content-title">
+                    Pharog, India
+                  </div>
+                  <div class="element-content-host">
+                    293 kilometres away
+                  </div>
+                  <div class="element-content-host">
+                    1–6 Dec
+                  </div>
+                  <div class="element-content-price">
+                    <span>
+                      ₹4,400
+                      </span>night 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="grid-element">
+              <div class="grid-element-container">
+                <div class="image-card">
+                  <div class="image-container">
+                    <img
+                      src="https://a0.muscache.com/im/pictures/miso/Hosting-654001690497595692/original/94605df9-10d9-4082-ad2d-3b11ec519386.jpeg?im_w=720"
+                      alt="">
+                  </div>
+                  <div class="like">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke:#fff; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </div>
+                  </div>
+                  
+                  <div class="image-nav">
+                    <button class="img-nav-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                        focusable="false"
+                        style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                        <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28" />
+                      </svg> </button>
+                  </div>
+                </div>
+                <div class="element-content" style="position: relative;">
+                  <div class="element-content-title">
+                    Badowala, India
+                  </div>
+                  <div class="element-content-host">
+                    196 kilometres away
+                  </div>
+                  <div class="element-content-host">
+                    1–6 Dec
+                  </div>
+                  <div class="element-content-price">
+                    <span>
+                      ₹15,404
+                      </span>night 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="grid-element">
+              <div class="grid-element-container">
+                <div class="image-card">
+                  <div class="image-container">
+                    <img
+                      src="https://a0.muscache.com/im/pictures/miso/Hosting-53408947/original/fa04d4b3-76b7-4b46-97fe-e1e2721f5e44.jpeg?im_w=720"
+                      alt="">
+                  </div>
+                  <div class="like">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke:#fff; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </div>
+                  </div>
+                  
+                  <div class="image-nav">
+                    <button class="img-nav-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                        focusable="false"
+                        style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                        <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28" />
+                      </svg> </button>
+                  </div>
+                </div>
+                <div class="element-content" style="position: relative;">
+                  <div class="element-content-title">
+                    Bir, India
+                  </div>
+                  <div class="element-content-host">
+                    384 kilometres away
+                  </div>
+                  <div class="element-content-host">
+                    3–8 Jan
+                  </div>
+                  <div class="element-content-price">
+                    <span>
+                      ₹24,193
+                      </span>night 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     </div>
 
