@@ -134,6 +134,10 @@
     line-break: strict;
     width: 100%;
     outline: none;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    
 
 }
 
@@ -499,7 +503,7 @@
     transition: none;
     user-select: none;
     width: 325px;
-    overflow: hidden;
+    
 
 
 }
