@@ -138,6 +138,7 @@
     overflow: hidden; 
     text-overflow: ellipsis;
     
+    
 
 }
 
@@ -473,6 +474,8 @@
     line-height: 20.02px;
     margin-inline-end: 50px;
     text-size-adjust: 100%;
+    /* overflow: hidden; */
+    position: relative;
     
 
 }
@@ -497,7 +500,7 @@
     max-width: 100%;
     outline: none;
     padding: 0 4px;
-    position: relative;
+    /* position: relative; */
     text-align: start;
     text-decoration: none;
     transition: none;
@@ -1093,11 +1096,15 @@ word-spacing: 0px;
 
 .cp-list {
     display: flex;
+    flex-wrap: wrap;
+    line-height: 1.625rem;
+    
 }
 
 .cp-list li {
     list-style: none;
     display: flex;
+    
     
 }
 
@@ -1110,6 +1117,8 @@ word-spacing: 0px;
 .social-medial-link {
     display: flex;
     justify-content: end;
+    align-items: center;
+    margin-bottom: 1px;
 }
 
 .language {
@@ -1154,7 +1163,7 @@ word-spacing: 0px;
     font-size: 14px;
     border: none;
     font-family: var(--font-medium);
-    
+    color: #222222;
     background: transparent;
 }
 
@@ -1183,6 +1192,8 @@ word-spacing: 0px;
     color: #222222;
     fill: black;
 }
+
+
 
 
 @media screen and (max-width:1880px) {
@@ -1316,6 +1327,7 @@ word-spacing: 0px;
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
+
 
 
 
