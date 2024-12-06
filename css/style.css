@@ -1069,7 +1069,8 @@ word-spacing: 0px;
 
 .social-section {
     width: 100%;
-    padding: 21px 0px;
+    padding: 24px 0px;
+    
 }
 
 .social-content {
@@ -1080,7 +1081,7 @@ word-spacing: 0px;
 
 .privacy-section {
     display: flex;
-    padding: 4px 4px 4px 0px;
+    /* padding: 4px 4px 4px 0px; */
 }
 
 .copyright {
@@ -1218,10 +1219,10 @@ word-spacing: 0px;
 
 @media screen and (max-width: 1440px) {
     .footer-top {
-        padding: 48px 40px;
+        padding: 48px 80px;
     }
     .footer-bottom-content {
-        padding: 0 40px;
+        padding: 0 80px;
     }
 } 
 
@@ -1244,6 +1245,12 @@ word-spacing: 0px;
     }
     .category-grid li:last-child {
         display: block;
+    }
+    .footer-top {
+        padding: 48px 40px;
+    }
+    .footer-bottom-content {
+        padding: 0 40px;
     }
 
 }
